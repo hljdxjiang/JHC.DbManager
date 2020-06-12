@@ -1,0 +1,11 @@
+/Users/df/program/C#/CRMSystem/JHC.DataManager/bin/Debug/netcoreapp3.1/JHC.DbManager.deps.json
+/Users/df/program/C#/CRMSystem/JHC.DataManager/bin/Debug/netcoreapp3.1/JHC.DbManager.runtimeconfig.json
+/Users/df/program/C#/CRMSystem/JHC.DataManager/bin/Debug/netcoreapp3.1/JHC.DbManager.runtimeconfig.dev.json
+/Users/df/program/C#/CRMSystem/JHC.DataManager/bin/Debug/netcoreapp3.1/JHC.DbManager.dll
+/Users/df/program/C#/CRMSystem/JHC.DataManager/bin/Debug/netcoreapp3.1/JHC.DbManager.pdb
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.AssemblyInfoInputs.cache
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.AssemblyInfo.cs
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.csproj.CoreCompileInputs.cache
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.dll
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.pdb
+/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/Debug/netcoreapp3.1/JHC.DbManager.genruntimeconfig.cache

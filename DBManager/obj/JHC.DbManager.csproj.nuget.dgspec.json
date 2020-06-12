@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/df/program/C#/CRMSystem/DBManager/DBManager.csproj": {}
+    "/Users/df/program/C#/CRMSystem/JHC.DataManager/JHC.DbManager.csproj": {}
   },
   "projects": {
-    "/Users/df/program/C#/CRMSystem/DBManager/DBManager.csproj": {
+    "/Users/df/program/C#/CRMSystem/JHC.DataManager/JHC.DbManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/df/program/C#/CRMSystem/DBManager/DBManager.csproj",
-        "projectName": "DBManager",
-        "projectPath": "/Users/df/program/C#/CRMSystem/DBManager/DBManager.csproj",
+        "projectUniqueName": "/Users/df/program/C#/CRMSystem/JHC.DataManager/JHC.DbManager.csproj",
+        "projectName": "JHC.DbManager",
+        "projectPath": "/Users/df/program/C#/CRMSystem/JHC.DataManager/JHC.DbManager.csproj",
         "packagesPath": "/Users/df/.nuget/packages/",
-        "outputPath": "/Users/df/program/C#/CRMSystem/DBManager/obj/",
+        "outputPath": "/Users/df/program/C#/CRMSystem/JHC.DataManager/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -43,21 +43,23 @@
               "target": "Package",
               "version": "[2.0.35, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[1.1.6, )"
             },
-            "Microsoft.Extensions.Configuration.Json": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.20, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
             },
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",
