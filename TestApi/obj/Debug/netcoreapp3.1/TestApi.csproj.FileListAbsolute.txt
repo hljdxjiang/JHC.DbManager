@@ -70,6 +70,7 @@
 /Users/df/program/C#/CRMSystem/TestApi/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/df/program/C#/CRMSystem/TestApi/bin/Debug/netcoreapp3.1/JHC.DbManager.dll
 /Users/df/program/C#/CRMSystem/TestApi/bin/Debug/netcoreapp3.1/JHC.DbManager.pdb
+/Users/df/program/C#/CRMSystem/TestApi/obj/Debug/netcoreapp3.1/TestApi.csprojAssemblyReference.cache
 /Users/df/program/C#/CRMSystem/TestApi/obj/Debug/netcoreapp3.1/TestApi.AssemblyInfoInputs.cache
 /Users/df/program/C#/CRMSystem/TestApi/obj/Debug/netcoreapp3.1/TestApi.AssemblyInfo.cs
 /Users/df/program/C#/CRMSystem/TestApi/obj/Debug/netcoreapp3.1/TestApi.csproj.CoreCompileInputs.cache

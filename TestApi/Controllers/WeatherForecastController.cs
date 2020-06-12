@@ -20,10 +20,11 @@ namespace TestApi.Controllers
         private readonly ILogger<WeatherForecastController> _logger;
         private DapperClient mysql;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger,IDapperFactory dapperFactory)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger,IDapperClientFactory dapperFactory)
         {
             _logger = logger;
-            mysql = dapperFactory.CreateClient("mysql");
+            System.Console.WriteLine(dapperFactory);
+            mysql = dapperFactory.GetClient("mysql1");
         }
 
         [HttpGet]

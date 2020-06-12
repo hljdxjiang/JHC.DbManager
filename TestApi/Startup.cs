@@ -27,17 +27,43 @@ namespace TestApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDapper("mysql", m =>
-            {
-                m.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
-                m.DbType = DbStoreType.MySql;
-            });
-            //连接Oracle
-            services.AddDapper("OracleConnection", m =>
-            {
-                m.ConnectionString = Configuration.GetConnectionString("OracleConnectionString");
-                m.DbType = DbStoreType.Oracle;
-            });
+            //services.AddDapper("mysql", m =>
+            //{
+            //    m.ConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            //    m.DbType = DbStoreType.MySql;
+            //});
+            ////连接Oracle
+            //services.AddDapper("OracleConnection", m =>
+            //{
+            //    m.ConnectionString = Configuration.GetConnectionString("OracleConnectionString");
+            //    m.DbType = DbStoreType.Oracle;
+            //});
+            var connets = Configuration.GetSection("DbConnedtions").GetChildren();
+            var dbDic = new Dictionary<string, DapperClient>();
+            foreach (var item in connets) {
+                string name = item.GetSection("name").Value;
+                string type = item.GetSection("dbtype").Value;
+                string constr= item.GetSection("connectstring").Value;
+                ConnectionConfig conf = new ConnectionConfig();
+                conf.ConnectionString = constr;
+                switch (type.ToLower()) {
+                    case "mysql":
+                        conf.DbType = DbStoreType.MySql;
+                        break;
+                    case "oracle":
+                        conf.DbType = DbStoreType.Oracle;
+                        break;
+                    case "sqlite":
+                        conf.DbType = DbStoreType.Sqlite;
+                        break;
+                    case "sqlserver":
+                        conf.DbType = DbStoreType.SqlServer;
+                        break;
+                }
+                DapperClient client = new DapperClient(conf);
+                dbDic.Add(name, client);
+            }
+            services.AddClient( dbDic);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

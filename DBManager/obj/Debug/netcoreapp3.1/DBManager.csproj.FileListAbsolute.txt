@@ -6,3 +6,4 @@
 /Users/df/program/C#/CRMSystem/DBManager/obj/Debug/netcoreapp3.1/DBManager.csproj.CoreCompileInputs.cache
 /Users/df/program/C#/CRMSystem/DBManager/obj/Debug/netcoreapp3.1/DBManager.dll
 /Users/df/program/C#/CRMSystem/DBManager/obj/Debug/netcoreapp3.1/DBManager.pdb
+/Users/df/program/C#/CRMSystem/DBManager/obj/Debug/netcoreapp3.1/DBManager.csprojAssemblyReference.cache
